@@ -1,0 +1,87 @@
+.outerContainer {
+    margin-top: 160px;
+    margin-bottom: 130px;
+  }
+  .innerContainer {
+    margin-bottom: 40px;
+  }
+  .outerBar {
+    position: relative;
+    background: rgb(235,235,235);
+    border-radius: 20px;
+    height:40px;
+    width:80%;
+    margin: 0 auto 0 auto;
+  }
+  .innerBar {
+    position: absolute;
+    border-radius: 20px;
+    height:38px;
+    border:1px solid black;
+    width:50%;
+    margin: 0 0 0 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+  }
+  .stripedGreen {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgb(194,230,135) 0px,
+      rgb(194,230,135) 5px,
+      rgb(187,225,119) 5px,
+      rgb(187,225,119) 10px
+    );
+  }
+  .stripedRed {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgb(252,138,118) 0px,
+      rgb(252,138,118) 5px,
+      rgb(255,159,148) 5px,
+      rgb(255,159,148) 10px
+    );
+  }
+  .white {
+    background: white;
+  }
+  .stripedCyan {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgb(163,214,243) 0px,
+      rgb(163,214,243) 5px,
+      rgb(137,200,241) 5px,
+      rgb(137,200,241) 10px
+    );
+  }
+  .stripedGold {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgb(255,220,138) 0px,
+      rgb(255,220,138) 5px,
+      rgb(255,204,86) 5px,
+      rgb(255,204,86) 10px
+    );
+  }
+  .percentage {
+    position:relative;
+    line-height: 38px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgba(50,50,50,.6);
+    font-weight: 600
+  }
+  .innermostBar {
+    width: 100%;
+    height: 33px;
+    border-top: 2px solid rgba(255,255,255,.5);
+    border-bottom: 3px solid rgba(0,0,0,.15);
+    border-radius: 20px;
+    
+  }
+  .button {
+    margin: 0 0 0 -25px;
+    position:relative;
+    left: 50%
+  }
